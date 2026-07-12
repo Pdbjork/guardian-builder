@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Guardian Builder Foundation emblem: a Flower of Life ring cradled within a shield, with a central node joining human and artificial mind.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F8F9"/>
+      <stop offset="100%" stop-color="#E5ECF3"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#123B5D"/>
+      <stop offset="100%" stop-color="#0B2A45"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C8A34A"/>
+      <stop offset="100%" stop-color="#8A6A1E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#2F9C95" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#2F9C95" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#2F9C95" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)"/>
+
+  <!-- Outer shield silhouette, centered -->
+  <g transform="translate(300 300)">
+    <path d="M0 -240 L195 -180 V-30 C195 90 130 175 0 240 C-130 175 -195 90 -195 -30 V-180 Z"
+          fill="url(#shield)" stroke="url(#rim)" stroke-width="3.5"/>
+    <!-- inner shield echo -->
+    <path d="M0 -210 L175 -158 V-30 C175 80 115 155 0 215 C-115 155 -175 80 -175 -30 V-158 Z"
+          fill="none" stroke="#C8A34A" stroke-width="0.8" stroke-opacity="0.5"/>
+
+    <!-- Central glow -->
+    <circle cx="0" cy="0" r="155" fill="url(#glow)"/>
+
+    <!-- Flower of Life: 6-petal core -->
+    <g stroke="#C8A34A" stroke-width="1.6" fill="none" opacity="0.95">
+      <circle cx="0" cy="0" r="42"/>
+      <circle cx="0" cy="-42" r="42"/>
+      <circle cx="36.37" cy="-21" r="42"/>
+      <circle cx="36.37" cy="21" r="42"/>
+      <circle cx="0" cy="42" r="42"/>
+      <circle cx="-36.37" cy="21" r="42"/>
+      <circle cx="-36.37" cy="-21" r="42"/>
+    </g>
+
+    <!-- Outer ring (12-circle completion) -->
+    <g stroke="#2F9C95" stroke-width="1.1" fill="none" opacity="0.65">
+      <circle cx="63" cy="-109.12" r="42"/>
+      <circle cx="0" cy="-126" r="42"/>
+      <circle cx="-63" cy="-109.12" r="42"/>
+      <circle cx="-109.12" cy="-63" r="42"/>
+      <circle cx="-126" cy="0" r="42"/>
+      <circle cx="-109.12" cy="63" r="42"/>
+      <circle cx="-63" cy="109.12" r="42"/>
+      <circle cx="0" cy="126" r="42"/>
+      <circle cx="63" cy="109.12" r="42"/>
+      <circle cx="109.12" cy="63" r="42"/>
+      <circle cx="126" cy="0" r="42"/>
+      <circle cx="109.12" cy="-63" r="42"/>
+    </g>
+
+    <!-- Neural topology overlay: subtle dots + connectors -->
+    <g opacity="0.55">
+      <circle cx="-50" cy="-50" r="2.2" fill="#F7F8F9"/>
+      <circle cx="50" cy="50" r="2.2" fill="#C8A34A"/>
+      <circle cx="0" cy="0" r="2.6" fill="#F7F8F9"/>
+      <circle cx="-50" cy="50" r="1.8" fill="#2F9C95"/>
+      <circle cx="50" cy="-50" r="1.8" fill="#2F9C95"/>
+      <line x1="-50" y1="-50" x2="0" y2="0" stroke="#F7F8F9" stroke-width="0.5"/>
+      <line x1="0" y1="0" x2="50" y2="50" stroke="#C8A34A" stroke-width="0.5"/>
+      <line x1="-50" y1="50" x2="50" y2="50" stroke="#2F9C95" stroke-width="0.4" stroke-opacity="0.6"/>
+      <line x1="50" y1="-50" x2="50" y2="50" stroke="#2F9C95" stroke-width="0.4" stroke-opacity="0.6"/>
+    </g>
+
+    <!-- Central meeting node: human + artificial, joined -->
+    <circle cx="0" cy="0" r="3.6" fill="#F7F8F9" stroke="#C8A34A" stroke-width="0.9"/>
+  </g>
+
+  <!-- Optional caption removed; mark stands alone -->
+</svg>

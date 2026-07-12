@@ -1,0 +1,53 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/board",
+      "destination": "/participate",
+      "permanent": true
+    },
+    {
+      "source": "/board.html",
+      "destination": "/participate",
+      "permanent": true
+    },
+    {
+      "source": "/conference",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
+      "source": "/forum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/manifesto",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/manifesto.html",
+      "destination": "/about",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "outputDirectory": ".",
+  "buildCommand": null
+}

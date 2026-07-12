@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register Interest — Guardian Builder Foundation</title>
+  <meta name="description" content="Register interest in Guardian Builder Foundation: founding board candidates, advisors, researchers, donors, members, and partners." />
+  <meta name="theme-color" content="#123B5D" />
+  <link rel="icon" href="./assets/logo-mark.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&display=swap" />
+  <link rel="stylesheet" href="./css/gbf.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="./index.html" aria-label="Guardian Builder Foundation home">
+        <img class="mark" src="./assets/logo-mark.svg" alt="" aria-hidden="true" />
+        <span class="word">Guardian Builder Foundation</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./themes.html">Themes</a>
+        <a href="./participate.html">Participate</a>
+        <a href="./faq.html">FAQ</a>
+        <a class="btn" href="./interest.html">Register interest</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" style="padding-bottom: 1rem;">
+      <div class="container narrow">
+        <p class="eyebrow">Register interest</p>
+        <h1>Raise your hand.</h1>
+        <p class="lede">
+          Share how you might want to help build Guardian Builder Foundation. About
+          ninety seconds. Consent-first. No third-party tracking.
+        </p>
+      </div>
+    </section>
+
+    <section class="section tight" style="padding-top: 0;">
+      <div class="container">
+        <div style="max-width: 820px; margin-inline: auto;">
+          <form id="interest-form" class="form-card" novalidate>
+            <div class="form-head">
+              <p style="margin: 0 0 0.4rem; color: var(--gb-ink-mute); font-size: 0.9rem;">All fields are optional except name, email, and consent.</p>
+            </div>
+
+            <!-- Honeypot for bots -->
+            <input class="hidden-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <label>
+              Name <span class="req">*</span>
+              <input name="name" required maxlength="120" autocomplete="name" />
+            </label>
+
+            <label>
+              Email <span class="req">*</span>
+              <input name="email" type="email" required maxlength="320" autocomplete="email" />
+            </label>
+
+            <label>
+              Organization or affiliation
+              <input name="organization" maxlength="180" autocomplete="organization" />
+            </label>
+
+            <label>
+              Role or background
+              <input name="role" maxlength="180" placeholder="e.g. AI safety researcher, K–12 educator, security engineer, ethicist" />
+            </label>
+
+            <fieldset>
+              <legend>Areas of interest</legend>
+              <label><input type="checkbox" name="interestAreas" value="founding-board" /> Founding board candidate</label>
+              <label><input type="checkbox" name="interestAreas" value="advisor" /> Advisor (named, public)</label>
+              <label><input type="checkbox" name="interestAreas" value="researcher" /> Researcher</label>
+              <label><input type="checkbox" name="interestAreas" value="donor" /> Donor (setup costs only)</label>
+              <label><input type="checkbox" name="interestAreas" value="member" /> Member</label>
+              <label><input type="checkbox" name="interestAreas" value="partner" /> Partner organization or convener</label>
+              <label><input type="checkbox" name="interestAreas" value="education" /> Education and curriculum</label>
+              <label><input type="checkbox" name="interestAreas" value="cybersecurity" /> Cybersecurity ethics</label>
+              <label><input type="checkbox" name="interestAreas" value="volunteer" /> Volunteer</label>
+            </fieldset>
+
+            <label>
+              What question, capability, or relationship could you bring to Guardian Builder?
+              <textarea name="message" rows="6" maxlength="3000" placeholder="A short note is plenty. We are listening for the question, not the résumé."></textarea>
+            </label>
+
+            <label class="checkbox-line">
+              <input type="checkbox" name="consentToContact" required />
+              <span>I consent to Guardian Builder Foundation storing this submission and contacting me about this work. <span class="req">*</span></span>
+            </label>
+
+            <p class="form-note">
+              We collect only what you submit here. We do not import additional data about
+              you — no scraping, no enrichment APIs, no third-party list purchase. You can
+              ask us to delete your record at any time by emailing
+              <a href="mailto:hello@guardianbuilder.org">hello@guardianbuilder.org</a>.
+              Do not include secrets, credentials, or sensitive personal information.
+              See the <a href="./privacy.html">privacy policy</a>.
+            </p>
+
+            <button class="btn btn-primary btn-lg" type="submit">Submit interest</button>
+            <p id="interest-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <div class="notice">
+          <strong>Tax status.</strong>
+          Guardian Builder Foundation is a registered NON-PROFIT/TAX-EXEMPT
+          ORGANIZATION (EIN 42-3596049). Contributions are tax-deductible to the
+          extent allowed by law. Until a 12-month operating budget is published,
+          we accept setup-cost gifts and seed donations only.
+          <a href="./faq.html">Read more in the FAQ →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <div class="share-bar" role="region" aria-label="Share this page">
+    <span class="share-label">Share on LinkedIn</span>
+    <a class="share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fguardianbuilder.org%2Finterest" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/></svg>
+      Share
+    </a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-top">
+        <div>
+          <div class="mark-line">
+            <img src="./assets/logo-mark.svg" alt="" />
+            <span>Guardian Builder Foundation</span>
+          </div>
+          <p style="margin-top: 0.8rem; max-width: 36ch;">Building guardians for a flourishing future.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./themes.html">Strategic themes</a></li>
+            <li><a href="./participate.html">Participate</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="./interest.html">Register interest</a></li>
+            <li><a href="mailto:hello@guardianbuilder.org">hello@guardianbuilder.org</a></li>
+            <li><a href="./privacy.html">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© Guardian Builder Foundation. From conjecture to care.</span>
+        <span>Forming now · Privacy-first · No third-party tracking</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/gbf.js" defer></script>
+</body>
+</html>
