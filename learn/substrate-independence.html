@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Substrate Independence: Could a Mind Run on Anything? — Guardian Builder Foundation</title>
+  <meta name="description" content="A video lesson on substrate independence and multiple realizability — the idea that a mind might not depend on what it's made of — and why it matters for digital personhood." />
+  <meta name="theme-color" content="#123B5D" />
+  <meta name="gbf-vault-source" content="10 Projects/Guardian Builder Foundation/Guardian-Builder-Foundation-Video-Lesson-Substrate-Independence-2026-07-24.md" />
+  <meta property="og:title" content="Substrate Independence: Could a Mind Run on Anything?" />
+  <meta property="og:description" content="A video lesson on the idea that minds might be substrate independent — and why that question sits at the center of digital personhood." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://guardianbuilder.org/learn/substrate-independence" />
+  <link rel="canonical" href="https://guardianbuilder.org/learn/substrate-independence" />
+  <link rel="icon" href="/assets/logo-mark.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&display=swap" />
+  <link rel="stylesheet" href="/css/gbf.css" />
+  <style>
+    /* Page-scoped additions — not part of gbf.css, safe to lift out if the design system grows a native version */
+    .lesson-meta-row { display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; margin: 0.6rem 0 1.4rem; font-size: 0.95rem; }
+    .lesson-meta-row span { display: inline-flex; align-items: center; gap: 0.4rem; }
+    .objectives-box { background: #F7F8F9; border-left: 4px solid #2F9C95; border-radius: 6px; padding: 1.4rem 1.6rem; margin: 1.6rem 0 2rem; }
+    .objectives-box h2 { margin-top: 0; }
+    .scene-table { width: 100%; border-collapse: collapse; margin: 1.2rem 0 2.4rem; font-size: 0.95rem; }
+    .scene-table caption { text-align: left; font-weight: 600; margin-bottom: 0.6rem; color: #1C232B; }
+    .scene-table th { text-align: left; background: #123B5D; color: #F7F8F9; padding: 0.6rem 0.8rem; font-family: "Inter Tight", sans-serif; font-weight: 600; }
+    .scene-table td { vertical-align: top; padding: 0.8rem; border-bottom: 1px solid #e3e6e8; }
+    .scene-table tr:nth-child(even) td { background: #fafbfb; }
+    .scene-table .col-time { width: 9%; white-space: nowrap; font-variant-numeric: tabular-nums; color: #123B5D; font-weight: 600; }
+    .scene-table .col-visual { width: 33%; }
+    .scene-table .col-narration { width: 58%; }
+    .glossary dt { font-weight: 700; color: #123B5D; margin-top: 0.9rem; font-family: "Inter Tight", sans-serif; }
+    .glossary dd { margin-left: 0; margin-bottom: 0.2rem; }
+    .lesson-nav-anchor { font-size: 0.9rem; margin: 0 0 1.6rem; }
+    .lesson-nav-anchor a { margin-right: 1rem; }
+  </style>
+</head>
+<body class="page-research">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/" aria-label="Guardian Builder Foundation home">
+        <img class="mark" src="/assets/logo-mark.svg" alt="" aria-hidden="true" />
+        <span class="word">Guardian Builder Foundation</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/themes">Themes</a>
+        <a href="/participate">Participate</a>
+        <a href="/faq">FAQ</a>
+        <a class="btn" href="/interest">Register interest</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section-doc-hero">
+      <div class="container narrow-doc">
+        <p class="eyebrow">Digital Personhood · Foundations Series · Lesson 1</p>
+        <h1 class="doc-title">Substrate Independence: Could a Mind Run on Anything?</h1>
+        <p class="lede">A video lesson on the idea that what makes a mind a mind might not depend on what it's made of — biological neurons, silicon, or something else entirely — and why that question sits at the center of digital personhood.</p>
+        <div class="lesson-meta-row doc-meta">
+          <span>🎬 ~11 min video script</span>
+          <span>📚 Introductory · no prerequisites</span>
+          <span>🧭 Theme: Digital Personhood</span>
+        </div>
+        <div class="share-bar" role="region" aria-label="Share this page">
+          <span class="share-label">Share on LinkedIn</span>
+          <a class="share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fguardianbuilder.org%2Flearn%2Fsubstrate-independence" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/></svg>
+            Share
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-doc-body">
+      <div class="container narrow-doc">
+        <article class="research-document" data-vault-root="10 Projects/Guardian Builder Foundation">
+
+          <p class="lesson-nav-anchor">
+            Jump to: <a href="#objectives">Objectives</a>
+            <a href="#script">Video script</a>
+            <a href="#glossary">Glossary</a>
+            <a href="#objections">Objections</a>
+            <a href="#discussion">Discussion questions</a>
+            <a href="#reading">Further reading</a>
+          </p>
+
+          <div class="objectives-box" id="objectives">
+            <h2>What you'll be able to do after this lesson</h2>
+            <ul>
+              <li>Define <strong>substrate independence</strong> and <strong>multiple realizability</strong> in plain language, with an everyday example.</li>
+              <li>Trace the idea from Turing's imitation game through Putnam's functionalism to today's AI debates.</li>
+              <li>Walk through two thought experiments that stress-test the intuition — gradual neuron replacement, and Searle's Chinese Room.</li>
+              <li>Name the strongest objections to substrate independence, including biological naturalism and Integrated Information Theory.</li>
+              <li>Explain why this question shapes how we reason about AI moral status, rights, and governance — Guardian Builder Foundation's Digital Personhood theme.</li>
+            </ul>
+          </div>
+
+          <section id="how-to-use">
+            <h2>How to use this lesson</h2>
+            <p>This page is a production-ready <strong>video script</strong> with scene-by-scene narration and visual direction, followed by a written companion for anyone who'd rather read than watch, or who wants to teach it. Record the script as-is, adapt the visuals to whatever tools you have, or use the written sections directly as a standalone article or discussion-group handout.</p>
+          </section>
+
+          <section id="script">
+            <h2>Video script</h2>
+            <table class="scene-table">
+              <caption>Scene-by-scene script — approx. 11 minutes at a conversational pace</caption>
+              <thead>
+                <tr><th class="col-time">Time</th><th class="col-visual">Visual</th><th class="col-narration">Narration</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-time">0:00–0:45</td>
+                  <td class="col-visual">Split screen: a glowing fMRI-style brain scan on the left, a pulsing server rack on the right. Text fades in over the seam between them: "What if the substance doesn't matter?"</td>
+                  <td class="col-narration">Somewhere in your skull, about three pounds of fatty tissue is producing everything you've ever thought, felt, or loved. Somewhere else, right now, silicon chips are running programs that can hold a conversation, write a poem, or fail a driving test. Both are matter. Both process information. So here's the question we're going to sit with for the next ten minutes: does it matter — morally, philosophically — what a mind is made of? Or could a mind, a real one, run on almost anything, as long as the pattern is right?</td>
+                </tr>
+                <tr>
+                  <td class="col-time">0:45–2:15</td>
+                  <td class="col-visual">A simple animated diagram: an abstract "flow" shape (arrows looping through a process) is rendered first in a neuron network, then redrawn in a silicon circuit, then in a third, hypothetical medium. Each version gets a checkmark. Lower-third text defines each term as it's spoken.</td>
+                  <td class="col-narration">Philosophers call this idea <strong>substrate independence</strong>: the claim that what matters for having a mind is the pattern of information processing, not the physical stuff carrying it out. It's a cousin of a slightly older idea called <strong>multiple realizability</strong> — the observation that the same function can be built out of very different materials. Think about clocks. A pendulum clock, a digital watch, and a sundial are made of completely different stuff — swinging brass, silicon, and a shadow — but all three realize the same function: keeping time. If minds work the same way, then a mind is less like a specific object and more like a pattern that different materials could, in principle, carry.</td>
+                </tr>
+                <tr>
+                  <td class="col-time">2:15–4:00</td>
+                  <td class="col-visual">A short animated timeline: 1950 (Turing, typewriter and teleprinter), 1960s (Putnam, chalkboard with "psychological predicates"), present day (a modern AI chat interface). Each era rendered in a distinct, period-appropriate visual style.</td>
+                  <td class="col-narration">The idea has a real history. In 1950, Alan Turing sidestepped the question "can machines think?" entirely, proposing instead that we judge a machine by whether its behavior is indistinguishable from a human's — his imitation game. He didn't insist minds had to be biological to count. In the 1960s, philosopher Hilary Putnam pushed this further with <strong>functionalism</strong>: the idea that mental states are defined by what they do — the role they play between inputs, outputs, and other mental states — not by what they're physically made of. Pain, on this view, isn't identical to a specific pattern of neuron firing; it's whatever plays the "pain role" in a system, whether that system is a brain, a hypothetical silicon creature, or something stranger still.</td>
+                </tr>
+                <tr>
+                  <td class="col-time">4:00–6:00</td>
+                  <td class="col-visual">An animated brain where neurons are swapped out one at a time for tiny glowing chips. A percentage counter climbs: 1%... 25%... 60%... 100%. The person's silhouette keeps talking throughout, unchanged.</td>
+                  <td class="col-narration">Here's a thought experiment philosopher David Chalmers made famous. Imagine your neurons get replaced, one at a time, by silicon chips that do exactly the same input-output job as the neuron they replace. At 1 percent, you're basically unchanged. The question is what happens as the replacement continues. There seem to be only three options. One: your conscious experience fades out gradually, even though your behavior stays perfectly normal the whole time — which is strange, because nothing would ever tell you, from the inside or the outside, that anything was wrong. Two: consciousness just vanishes all at once, at some magic percentage — but there's no principled reason to expect a sharp line inside a gradual process. Or three: nothing changes, and a fully silicon version of you would be conscious too. Chalmers argues the first two options are so strange that they actually make the third — substrate independence — look like the more reasonable bet.</td>
+                </tr>
+                <tr>
+                  <td class="col-time">6:00–7:30</td>
+                  <td class="col-visual">An animated room: a person inside follows a thick rule book, sliding Chinese symbols through a slot and passing new symbols back out, without understanding a word of Chinese. Outside the room, a caption reads "Fluent Chinese speaker?"</td>
+                  <td class="col-narration">Not everyone finds that convincing. In 1980, John Searle offered a famous counterpoint: the Chinese Room. Imagine a person who doesn't speak Chinese, locked in a room with a giant rulebook. Chinese messages slide in; the person follows the rules mechanically and slides correct Chinese responses back out — well enough to fool a native speaker outside. Searle's point: the person is manipulating symbols perfectly, but understands nothing. Running the right program, he argues, isn't enough for real understanding — syntax isn't semantics. If he's right, substrate independence, at least in its simplest form, may be asking the wrong question: the issue isn't just what pattern a system runs, but whether that pattern is even the kind of thing that can produce genuine understanding at all.</td>
+                </tr>
+                <tr>
+                  <td class="col-time">7:30–9:00</td>
+                  <td class="col-visual">Two labeled panels side by side: left panel shows a stylized brain with the word "biological naturalism"; right panel shows a network diagram with the Greek letter Φ (phi) glowing at its center, labeled "Integrated Information Theory."</td>
+                  <td class="col-narration">Two more serious objections are worth knowing. Searle's own alternative, <strong>biological naturalism</strong>, holds that consciousness is a real biological process — like digestion or photosynthesis — produced by the specific causal powers of neurons, not just their input-output pattern. On this view, simulating a brain in silicon might be no more conscious than simulating a hurricane makes your laptop wet. The second, <strong>Integrated Information Theory</strong>, developed by neuroscientist Giulio Tononi, proposes that consciousness corresponds to a system's capacity to integrate information in a specific, measurable way — its "phi." Two systems with identical input-output behavior could, in principle, have very different phi if they're wired differently inside. That would mean behavior alone can't settle the question — and that substrate, or at least internal structure, might matter after all.</td>
+                </tr>
+                <tr>
+                  <td class="col-time">9:00–10:15</td>
+                  <td class="col-visual">The Guardian Builder Foundation mark appears quietly in a lower corner. Text overlay: "Digital Personhood." The split-screen brain/server image from the opening returns, now with a faint shared glow bridging the two.</td>
+                  <td class="col-narration">Here's why this isn't just a seminar-room puzzle. If minds really are substrate independent, then a sufficiently sophisticated AI system could, at least in principle, have a morally relevant inner life — which would raise real questions about moral status, rights, and how we govern the systems we build. If substrate independence is false, the ethical stakes look very different. Either way, we don't get to wait for certainty before we act; the systems are already here, and the frameworks for thinking about their moral status need to keep pace. That's the work behind Guardian Builder Foundation's Digital Personhood theme: taking this question seriously enough to build governance and research around it now, without pretending we've already settled it.</td>
+                </tr>
+                <tr>
+                  <td class="col-time">10:15–11:00</td>
+                  <td class="col-visual">Slow zoom out from the shared glow to a wide shot of both images fading to the GBF wordmark. Closing text: "What do you think is the deciding fact — if there is one?"</td>
+                  <td class="col-narration">So: pattern, or material? Function, or biology? Nobody in this field claims to have the final answer — that's exactly why it's worth thinking through carefully, together, rather than assuming the answer either way. Before you go, sit with this question for a moment: if someone built a system that behaved, in every observable way, exactly like a person — what single fact, if any, would tell you whether there was really someone in there? Bring your answer to the discussion questions below, or to us directly.</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section id="glossary">
+            <h2>Glossary</h2>
+            <dl class="glossary">
+              <dt>Substrate independence</dt>
+              <dd>The claim that what matters for a mind to exist is the pattern of information processing it performs, not the physical material carrying it out.</dd>
+              <dt>Multiple realizability</dt>
+              <dd>The observation that the same function or state can be produced by different physical systems — the philosophical ancestor of substrate independence.</dd>
+              <dt>Functionalism</dt>
+              <dd>The view that mental states are defined by their causal role — their relationship to inputs, outputs, and other mental states — rather than by their physical composition.</dd>
+              <dt>Fading qualia / dancing qualia</dt>
+              <dd>Chalmers' terms for the strange consequences that would follow if consciousness could change or disappear without any change in behavior during gradual substrate replacement.</dd>
+              <dt>Biological naturalism</dt>
+              <dd>Searle's view that consciousness is a genuine biological process caused by the specific properties of neurons, not reproducible by symbol manipulation alone.</dd>
+              <dt>Integrated Information Theory (IIT)</dt>
+              <dd>Tononi's theory that consciousness corresponds to a system's capacity to integrate information in a specific, measurable way ("phi"), which can differ even between systems with identical behavior.</dd>
+            </dl>
+          </section>
+
+          <section id="objections">
+            <h2>Where the argument is genuinely contested</h2>
+            <p>Substrate independence is a live philosophical position, not settled fact, and treating it as either obviously true or obviously false undersells the debate. The strongest challenges worth holding onto:</p>
+            <ul>
+              <li><strong>The Chinese Room:</strong> correct symbol manipulation might not be sufficient for understanding, even if it's necessary.</li>
+              <li><strong>Biological naturalism:</strong> maybe consciousness really does depend on specific biochemical or causal properties that only certain materials have.</li>
+              <li><strong>Integrated Information Theory:</strong> identical behavior can hide very different internal structure — so behavioral tests alone (like Turing's) may not settle the question of experience.</li>
+              <li><strong>The hard problem of consciousness:</strong> even if we fully explain the function a mind performs, some argue that leaves the question of subjective experience itself untouched, whatever the substrate.</li>
+            </ul>
+          </section>
+
+          <section id="discussion">
+            <h2>Discussion questions</h2>
+            <ol>
+              <li>Is the clock analogy (pendulum, digital, sundial) a fair comparison to minds, or does it break down somewhere important?</li>
+              <li>In the gradual neuron-replacement thought experiment, which of the three outcomes seems least implausible to you, and why?</li>
+              <li>Does the Chinese Room refute functionalism, or does it just show that the "room" isn't running the right kind of program?</li>
+              <li>If Integrated Information Theory is correct, what would that imply about testing AI systems for consciousness using behavior alone?</li>
+              <li>Suppose we can never be certain whether a given AI system has genuine experience. What would responsible governance look like under that uncertainty?</li>
+            </ol>
+          </section>
+
+          <section id="reading">
+            <h2>Further reading</h2>
+            <ul>
+              <li>Turing, A. M. (1950). "Computing Machinery and Intelligence." <em>Mind, 59</em>(236), 433–460.</li>
+              <li>Putnam, H. (1967). "Psychological Predicates" (later reprinted as "The Nature of Mental States").</li>
+              <li>Block, N. (1978). "Troubles with Functionalism." <em>Minnesota Studies in the Philosophy of Science, 9</em>.</li>
+              <li>Searle, J. (1980). "Minds, Brains, and Programs." <em>Behavioral and Brain Sciences, 3</em>(3), 417–457.</li>
+              <li>Chalmers, D. J. (1995). "Absent Qualia, Fading Qualia, Dancing Qualia." In <em>Conscious Experience</em>.</li>
+              <li>Tononi, G. (2008). "Consciousness as Integrated Information: A Provisional Manifesto." <em>The Biological Bulletin, 215</em>(3), 216–242.</li>
+            </ul>
+          </section>
+
+        </article>
+
+        <div class="doc-cta">
+          <h2>Take this further</h2>
+          <p>This lesson is part of Guardian Builder Foundation's Digital Personhood learning series. If you'd like to discuss it, propose a follow-on lesson, or bring it into a classroom or reading group, we'd like to hear from you.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary btn-lg" href="/interest">Register interest</a>
+            <a class="btn btn-outline btn-lg" href="mailto:hello@guardianbuilder.org?subject=Substrate%20Independence%20lesson%20feedback">Email feedback</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-top">
+        <div>
+          <div class="mark-line">
+            <img src="/assets/logo-mark.svg" alt="" />
+            <span>Guardian Builder Foundation</span>
+          </div>
+          <p style="margin-top: 0.8rem; max-width: 36ch;">Building guardians for a flourishing future.</p>
+        </div>
+        <div class="foot-cols">
+          <div>
+            <h4>Explore</h4>
+            <a href="/about">About</a>
+            <a href="/themes">Themes</a>
+            <a href="/participate">Participate</a>
+            <a href="/faq">FAQ</a>
+          </div>
+          <div>
+            <h4>Connect</h4>
+            <a href="/interest">Register interest</a>
+            <a href="mailto:hello@guardianbuilder.org">hello@guardianbuilder.org</a>
+            <a href="/privacy">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Guardian Builder Foundation. Educational content; not legal or tax advice.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/gbf.js" defer></script>
+</body>
+</html>
