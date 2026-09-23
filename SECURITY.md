@@ -6,7 +6,7 @@ The static site and published templates on `main` are the supported line.
 
 ## Reporting a vulnerability
 
-Please email **hello@guardianbuilder.org** with:
+Please email **admin@guardianbuilder.org** with:
 
 - Description of the issue  
 - Steps to reproduce (if applicable)  
