@@ -59,7 +59,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and the [Code of Conduct](./COD
 
 ## Contact
 
-- **hello@guardianbuilder.org**  
+- **admin@guardianbuilder.org**
 - Founder: Peter Bjork  
 - ORCID: [0009-0004-5195-2172](https://orcid.org/0009-0004-5195-2172)
 

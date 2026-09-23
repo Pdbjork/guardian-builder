@@ -86,10 +86,10 @@
           setStatus('Thank you. Your interest has been recorded.', 'success');
           form.reset();
         } else {
-          setStatus(err.message || 'Submission failed. Please email hello@guardianbuilder.org.', 'error');
+          setStatus(err.message || 'Submission failed. Please email admin@guardianbuilder.org.', 'error');
         }
       } catch (err2) {
-        setStatus('Could not reach the form endpoint. Please email hello@guardianbuilder.org.', 'error');
+        setStatus('Could not reach the form endpoint. Please email admin@guardianbuilder.org.', 'error');
       }
     } finally {
       if (submitBtn) submitBtn.disabled = false;
